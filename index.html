@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Load libraries-->
+  <script src="libs/jquery-3.3.1.min.js"></script>
+  <script src="libs/jquery-ui.min.js"></script>
+  <script src="libs/particles.min.js"></script>
+
+
+  <!--Load style-->
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+
+  <title>Hudson Shykowski's Homepage</title>
+
+</head>
+<body>
+  <!--Load navigation bar-->
+  <div class="navigation" id="navbar">
+    <p>text</p>
+  </div>
+
+  <!--Designate particle div-->
+    <div id="particles-js">
+      <!--Load objects within the particle div-->
+
+      <!--Load main text TODO:Make it easier to space the text and icons in this div-->
+      <div class="header" id="headerblock">
+        <h1 id="header1">Welcome to:</h1>
+        <h1 id="header2"><script src="js/textfade.js"></script></h1>
+        <div class="arrowdown">
+          <i class="fas fa-angle-down fa-xs"><script src="js/arrowbounce.js"></script></i>
+        </div>
+      </div>
+    </div>
+    <!--Load Particles-->
+    <script>particlesJS.load('particles-js', 'js/particles.json', function() {
+      console.log('particles.js loaded - callback');});</script>
+
+    <!--second section-->
+    <div id="info1">
+      <p id="text1">text1</p>
+    </div>
+
+    <!--third section-->
+    <div id="info2">
+      <p id="text2">text2</p>
+    </div>
+</body>
+</html>
