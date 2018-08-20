@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*--navigationbar--*/
+#navbar{
+  position:fixed;
+  height: 75px;
+  width:100vw;
+  background: rgba(255, 255, 255, 0.2);
+}
+/*Navigation bar text settings*/
+.navtext{
+  /*configure text settings*/
+  color: white;
+  font-family: 'Amiko', sans-serif;
+}
+
+#hudsonintro, #projects, #whoami, #contact{
+  /*border: 2px solid white;*/
+}
+#hudsonintro{
+  margin-left: 20vw;
+  float: left;
+  font-size: 25px;
+}
+#contact, #whoami, #projects{
+  float: right;
+  font-size: 25px;
+}
+#contact{
+  margin-right: 20vw;
+}
+#whoami{
+  margin-right: 50px;
+}
+#projects{
+  margin-right: 50px;
+}

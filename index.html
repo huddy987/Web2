@@ -7,33 +7,41 @@
   <script src="libs/particles.min.js"></script>
 
 
-  <!--Load style-->
+  <!---Load style--->
+  <!--Font Awesome-->
   <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+  <!--Google Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko">
+  <!--My own stylesheets-->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/navibar.css">
 
   <title>Hudson Shykowski's Homepage</title>
 
 </head>
 <body>
   <!--Load navigation bar-->
-  <div class="navigation" id="navbar">
-    <p>text</p>
+  <div class="navtext" id="navbar">
+    <h2 id="hudsonintro">Hudson Shykowski</h2>
+    <h2 id="contact">Contact me</h2>
+    <h2 id="whoami">Who am I?</h2>
+    <h2 id="projects">Projects</h2>
   </div>
 
   <!--Designate particle div-->
-    <div id="particles-js">
-      <!--Load objects within the particle div-->
+  <div id="particles-js">
+    <!--Load objects within the particle div-->
 
-      <!--Load main text TODO:Make it easier to space the text and icons in this div-->
-      <div class="header" id="headerblock">
-        <h1 id="header1">Welcome to:</h1>
-        <h1 id="header2"><script src="js/textfade.js"></script></h1>
-        <div class="arrowdown">
-          <i class="fas fa-angle-down fa-xs"><script src="js/arrowbounce.js"></script></i>
-        </div>
-      </div>
+    <div class="page1text" id="headerblock">
+      <h1 id="header1">Welcome to:</h1>
+      <h1 id="header2"><script src="js/textfade.js"></script></h1>
     </div>
+    <div class="page1text" id="arrowdown">
+      <i class="fas fa-angle-down fa-xs"><script src="js/arrowbounce.js"></script></i>
+    </div>
+  </div>
     <!--Load Particles-->
     <script>particlesJS.load('particles-js', 'js/particles.json', function() {
       console.log('particles.js loaded - callback');});</script>

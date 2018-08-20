@@ -1,32 +1,20 @@
-@font-face {
-  font-family: Poppins
-  src: url(../fonts/Poppins-Regular.otf);
-
-  font-family: Poppins-Bold;
-  src: url(../fonts/Poppins-Bold.otf);
-}
 body{
   margin: 0;
   padding: 0;
 }
 
-/*--navigationbar--*/
-#navbar{
-  height: 50px;
-  width:100vw;
-  background: rgba(255, 255, 255, 0.2);
-}
-.navigation{
-  /*configure text settings*/
-  position:fixed;
-  color: white;
-}
-
-
 /*--page 1--*/
 #particles-js{
   height: 100vh;
   background-color: #262626;
+}
+.page1text{
+  /*configure text settings*/
+  position: absolute;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  text-align: center;
 }
 /*header div*/
 #headerblock{
@@ -34,18 +22,12 @@ body{
   height: 60vh;
   width: 100vw;
   /*set up position*/
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
-.header{
-  /*configure text settings*/
-  position: absolute;
-  color: white;
-  font-family: Poppins-Bold;
-  font-size: 50px;
-  text-align: center;
-}
-.arrowdown{
-  margin-top: 15vh;
+/*Down arrow div*/
+#arrowdown{
+  margin-top: 90vh;
+  width: 100vw;
 }
 
 /*--section 2--*/
