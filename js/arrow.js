@@ -17,8 +17,9 @@ $(document).ready(function() {
       $("#arrowdown").effect("bounce", {times:amount, distance:height}, speed);
     },delay);
   },idelay);
-  //Scroll past the welcome page TODO: animate this.
+  //Scroll past the welcome page
   $("#arrowdown").click(function(){
-    window.scrollTo(0, $(window).height());
+    //Second argument is the scroll speed in ms
+    $("html").animate({scrollTop: $(window).height()}, 1000);
   });
 });
