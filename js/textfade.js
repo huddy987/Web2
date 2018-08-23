@@ -14,40 +14,45 @@ var speed=1000;
 
 $(document).ready(function() {
   //Set an initial header
-  $("#header2").text("text1");
+  $("#header2").text("Website.");
+  $("#link2").attr("href", "/");
   setInterval(function(){
     switch (n){
       //Switch between 5 different header
       case 0:
         $("#header2").fadeOut(speed,function() {
-        $(this).text("text1").fadeIn(speed);
-        });
+          $(this).text("Website.").fadeIn(speed);
+          $("#link2").attr("href", "/");
+          });
         n=1;
         break;
       case 1:
         $("#header2").fadeOut(speed,function() {
-          $(this).text("text2").fadeIn(speed);
+          $(this).text("Project Gallery.").fadeIn(speed);
+          $("#link2").attr("href", "projects");
         });
         n=2;
         break;
       case 2:
         $("#header2").fadeOut(speed,function() {
-          $(this).text("text3").fadeIn(speed);
+          $(this).text("Thinkspace.").fadeIn(speed);
+          $("#link2").attr("href", "projects/future");
         });
         n=3;
         break;
       case 3:
         $("#header2").fadeOut(speed,function() {
-          $(this).text("text4").fadeIn(speed);
+          $(this).text("Contact page.").fadeIn(speed);
+          $("#link2").attr("href", "contact");
         });
         n=4;
         break;
-      case 4:
+      /*case 4:
         $("#header2").fadeOut(speed,function() {
           $(this).text("text5").fadeIn(speed);
         });
         n=0;
-        break;
+        break;*/
       }
     },texttime);
     });
