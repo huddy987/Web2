@@ -1,19 +1,18 @@
-body{
-  margin: 0;
-  padding: 0;
-}
-
 /*--navigationbar--*/
 #navbar{
   position:fixed;
   height: 75px;
   width:100vw;
-  background: rgba(255, 255, 255, 0.2);
+}
+a{
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
 }
 /*Navigation bar text settings*/
 .navtext{
   /*configure text settings*/
-  color: white;
+  color: #afafaf;
   font-family: 'Amiko', sans-serif;
 }
 
@@ -25,9 +24,15 @@ body{
   float: left;
   font-size: 25px;
 }
+#hudsonintro:hover{
+  color: #0061ff;
+}
 #contact, #whoami, #projects{
   float: right;
   font-size: 25px;
+}
+#contact:hover, #whoami:hover, #projects:hover{
+  color: white;
 }
 #contact{
   margin-right: 20vw;

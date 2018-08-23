@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko">
   <!--My own stylesheets-->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/welcome.css">
   <link rel="stylesheet" href="css/jquery-ui.min.css">
   <link rel="stylesheet" href="css/navibar.css">
 
@@ -23,23 +23,23 @@
 </head>
 <body>
   <!--Load navigation bar-->
-  <div class="navtext" id="navbar">
-    <h2 id="hudsonintro">Hudson Shykowski</h2>
-    <h2 id="contact">Contact me</h2>
+  <div class="navtext" id="navbar" style="z-index: 2;">
+    <h2 id="hudsonintro"><a href="index.html">Hudson Shykowski</a></h2>
+    <h2 id="contact"><a href="contact">Contact me</a></h2>
     <h2 id="whoami">Who am I?</h2>
-    <h2 id="projects">Projects</h2>
+    <h2 id="projects"><a href="projects"><i class="fas fa-angle-down fa-xs"></i> Projects</a></h2>
   </div>
+  <!--Load navigation bar behavior-->
+  <script src="js/navibar.js"></script>
 
-  <!--Designate particle div-->
-  <div id="particles-js">
-    <!--Load objects within the particle div-->
-
+  <!--Load welcome screen-->
+  <div id="particles-js" style="z-index: 1;">
     <div class="page1text" id="headerblock">
       <h1 id="header1">Welcome to:</h1>
       <h1 id="header2"><script src="js/textfade.js"></script></h1>
     </div>
     <div class="page1text" id="arrowdown">
-      <i class="fas fa-angle-down fa-xs"><script src="js/arrowbounce.js"></script></i>
+      <i class="fas fa-angle-down fa-xs"><script src="js/arrow.js"></script></i>
     </div>
   </div>
     <!--Load Particles-->
