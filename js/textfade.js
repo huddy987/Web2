@@ -45,7 +45,7 @@ $(document).ready(function() {
           $(this).text("Contact page.").fadeIn(speed);
           $("#link2").attr("href", "contact");
         });
-        n=4;
+        n=0;
         break;
       /*case 4:
         $("#header2").fadeOut(speed,function() {

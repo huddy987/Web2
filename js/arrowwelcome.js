@@ -1,3 +1,5 @@
+//Script for homepage arrow behavior
+
 //-Variables for arrow bouncing function-
 //bounce Speed (ms)
 var speed = 250;

@@ -30,17 +30,20 @@ body{
 }
 /*Down arrow div*/
 #arrowdown{
-  width: 100vw;
   bottom: 10px;
+  left:50%;
+}
+#arrowdown:hover{
+  cursor: pointer;
 }
 
 /*--section 2--*/
-#info1{
+#who{
   height:250px;
   width:100vw;
   background-color:#0061ff;
 }
-#text1{
+#whotext{
   position:absolute;
 }
 /*--section 3--*/

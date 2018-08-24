@@ -1,7 +1,12 @@
 /*TODO: Improve device compatibility*/
-
+/*TODO: Improve the look of dropdownbox items*/
+body{
+  height: 200vh;
+  background-color: red;
+}
 /*--navigationbar--*/
 #navbar{
+  background-color: black;
   position:fixed;
   height: 75px;
   width:100vw;
@@ -16,32 +21,50 @@ a{
   /*configure text settings*/
   color: #afafaf;
   font-family: 'Amiko', sans-serif;
+  text-align: center;
+}
+/*dropdown main div*/
+.dropdown{
+  min-width: 170px;
+  display: inline-block;
+  float: right;
+  margin-right: 5vw;
+}
+/*Settings for block inside dropdown*/
+.dropdowncontent {
+  /*border: 2px solid white;*/
+  position: relative;
+  display: none;
+  background-color: black;
+  font-size: 18px;
+  min-height: 125px;
+  z-index: 3;
+}
+/*Hover behavior*/
+#hudsonintro:hover, #projects:hover, #contact:hover{
+  /*border: 2px solid white;*/
+  cursor: pointer;
+}
+#hudsonintro:hover{
+  color: #0061ff;
+}
+#contact:hover, #projects:hover, #completed:hover, #planned:hover, #inprogress:hover{
+  color: white;
+}
+.dropdown:hover .dropdowncontent{
+  display: block;
 }
 
-#hudsonintro, #projects, #whoami, #contact{
-  /*border: 2px solid white;*/
-}
+/*Positioning*/
 #hudsonintro{
   margin-left: 20vw;
   float: left;
   font-size: 25px;
 }
-#hudsonintro:hover{
-  color: #0061ff;
-}
-#contact, #whoami, #projects{
-  float: right;
+#contact, #projects{
   font-size: 25px;
 }
-#contact:hover, #whoami:hover, #projects:hover{
-  color: white;
-}
 #contact{
+  float: right;
   margin-right: 20vw;
-}
-#whoami{
-  margin-right: 50px;
-}
-#projects{
-  margin-right: 50px;
 }
