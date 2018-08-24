@@ -1,5 +1,4 @@
 /*TODO: Improve device compatibility*/
-/*TODO: Improve the look of dropdownbox items*/
 body{
   height: 200vh;
   background-color: red;
@@ -67,4 +66,7 @@ a{
 #contact{
   float: right;
   margin-right: 20vw;
+}
+#planned{
+  padding-right: 26px;
 }
