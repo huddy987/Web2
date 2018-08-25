@@ -1,8 +1,4 @@
 /*TODO: Improve device compatibility*/
-body{
-  height: 200vh;
-  background-color: red;
-}
 /*--navigationbar--*/
 #navbar{
   background-color: black;
@@ -56,7 +52,7 @@ a{
 
 /*Positioning*/
 #hudsonintro{
-  margin-left: 20vw;
+  margin-left: 10vw;
   float: left;
   font-size: 25px;
 }
@@ -65,7 +61,7 @@ a{
 }
 #contact{
   float: right;
-  margin-right: 20vw;
+  margin-right: 10vw;
 }
 #planned{
   padding-right: 26px;

@@ -36,7 +36,7 @@ $(document).ready(function() {
       case 2:
         $("#header2").fadeOut(speed,function() {
           $(this).text("Thinkspace.").fadeIn(speed);
-          $("#link2").attr("href", "projects/future");
+          $("#link2").attr("href", "projects/planned");
         });
         n=3;
         break;

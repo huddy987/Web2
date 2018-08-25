@@ -22,6 +22,7 @@ $(document).ready(function() {
   //Scroll past the welcome page
   $("#arrowdown").click(function(){
     //Second argument is the scroll speed in ms
-    $("html").animate({scrollTop: $(window).height()}, 1000);
+    //Scroll down the height of particles-js (welcome screen) minus the navigation bar
+    $("html, body").animate({scrollTop: $("#particles-js").height()-$("#navbar").height()}, 1000);
   });
 });
