@@ -76,3 +76,27 @@ a{
 #planned{
   padding-right: 26px;
 }
+/*Optimize for mobile screens*/
+@media only screen and (max-width: 1000px) {
+  #contact{
+    margin-right: 2vw;
+  }
+  #hudsonintro{
+    margin-left: 2vw;
+  }
+  .dropdown{
+    margin-right: 2vw;
+  }
+  .dropdowncontent{
+    margin-top: -2px;
+  }
+}
+
+/*--Bottom space--*/
+.bottomspace{
+  height:100px;
+  width:100vw;
+}
+#bottomback{
+  background-color: black;
+}
