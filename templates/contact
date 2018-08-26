@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <head>
+  <!--Optimize mobile screen scaling-->
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
   <!--Load libraries-->
   <script src="/libs/jquery-3.3.1.min.js"></script>
   <script src="/libs/jquery-ui.min.js"></script>
@@ -44,7 +46,7 @@
    </div>
    <div class="icons" id="iconback">
      <div class="iconcol">
-       <p title="Email"><a href="mailto:huddy987@gmail.com" target="_blank"><i class="fas fa-envelope icontext"></i></a></p>
+       <p title="Email"><a href="mailto:huddy987@gmail.com" target="_blank"><i class="fas fa-envelope-square icontext"></i></a></p>
        <p title="Discord"><a href="https://discordapp.com/users/225788448961855488" target="_blank"><i class="fab fa-discord icontext"></i></a></p>
      </div>
      <div class="iconcol">
@@ -55,5 +57,8 @@
        <p title="Github"><a href="https://github.com/huddy987" target="_blank"><i class="fab fa-github-square icontext"></i></a></p>
        <p title="Steam"><a href="https://steamcommunity.com/id/huddy987" target="_blank"><i class="fab fa-steam-square icontext"></i></a></p>
      </div>
+   </div>
+
+   <div class="bottomspace" id="bottomback">
    </div>
 </body>
