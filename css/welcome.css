@@ -44,18 +44,17 @@ body{
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height:400px;
+  height:450px;
   width:100vw;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 #whoback{
   background-color:#0061ff;
 }
 .whotext{
-  border: 2px solid white;
+  /*border: 2px solid white;*/
   width: 60vw;
   float: right;
-  margin-left: 5vh;
   /*text settings*/
   font-family: 'Amiko', sans-serif;
   color: white;
@@ -64,12 +63,21 @@ body{
 .whophoto{
 
 }
+
 /*--section 3--*/
-#info2{
-  height:1000px;
+.spotlight{
+  height:800px;
   width:100vw;
+}
+#spotlightback{
   background-color:#ffffff;
 }
-#text2{
-  position:absolute;
+
+/*--section 4--*/
+.bottomspace{
+  height:100px;
+  width:100vw;
+}
+#bottomback{
+  background-color: black;
 }

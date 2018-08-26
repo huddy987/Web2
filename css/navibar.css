@@ -1,5 +1,9 @@
 /*TODO: Improve device compatibility*/
 /*--navigationbar--*/
+body{
+  margin: 0;
+  padding: 0;
+}
 #navbar{
   background-color: black;
   position:fixed;
