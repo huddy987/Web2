@@ -4,16 +4,22 @@ body{
   margin: 0;
   padding: 0;
 }
-#navbar{
-  background-color: black;
-  position:fixed;
-  height: 75px;
-  width:100vw;
-}
 a{
   color: inherit;
   text-decoration: inherit;
   font-weight: inherit;
+}
+/*Fills text underneath the navbar at the top of the screen to make it easier to position divs*/
+.placeholder{
+  position: relative;
+  height: 74px;
+  width:100vw;
+}
+#navbar{
+  background-color: black;
+  position: fixed;
+  height: 75px;
+  width:100vw;
 }
 /*Navigation bar text settings*/
 .navtext{

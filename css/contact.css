@@ -1,0 +1,43 @@
+a{
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+.contacthead{
+  /*Use flex to position divs*/
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  /*234px allows for 100px of white space/padding*/
+  height: 234px;
+}
+
+#contactback{
+  background-color:#0061ff;
+}
+.contacttext{
+  /*border: 2px solid red;*/
+  width: 60vw;
+  /*text settings*/
+  font-family: 'Amiko', sans-serif;
+  color: white;
+  text-align: center;
+}
+.icons{
+  /*Use flex to position divs*/
+  /*border: 2px solid red;*/
+  display: flex;
+  width: 100vw;
+  height: 800px;
+}
+.iconcol{
+  /*border: 2px solid red;*/
+  flex: 1;
+  text-align: center;
+  font-size: 150px;
+}
+.icontext:hover{
+  color:red;
+}

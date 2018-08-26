@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko">
   <!--My own stylesheets-->
+  <link rel="stylesheet" href="/css/contact.css">
   <link rel="stylesheet" href="/css/jquery-ui.min.css">
   <link rel="stylesheet" href="/css/navibar.css">
    <title>insert title </title>
@@ -28,13 +29,31 @@
       </div>
   </div>
   </div>
-   <!--Load header-->
-  <div class="contacthead" id="contactback">
-    <div class="contact">
-      <p>
-        I can be reached on many online platforms. Click on one of the icons below to view my profile on the associated platform.
-        Don't recognize a logo? Mouse over it to see the platform's name.
-      </p>
-    </div>
+  <div class="placeholder">
   </div>
+   <!--Load header-->
+   <div class="contacthead" id="contactback">
+     <div class="contacttext" style="font-size: 30px;">
+       <p>
+        I can be contacted by email or through one of the platforms listed below.
+       </p>
+       <p style="font-size: 22px;">
+         Don't recognize a platform? Hover over a logo to view it's name.
+       </p>
+     </div>
+   </div>
+   <div class="icons" id="iconback">
+     <div class="iconcol">
+       <p title="Email"><a href="mailto:huddy987@gmail.com" target="_blank"><i class="fas fa-envelope icontext"></i></a></p>
+       <p title="Discord"><a href="https://discordapp.com/users/225788448961855488" target="_blank"><i class="fab fa-discord icontext"></i></a></p>
+     </div>
+     <div class="iconcol">
+       <p title="Linkedin"><a href="https://www.linkedin.com/in/huddys/" target="_blank"><i class="fab fa-linkedin icontext"></i></a></p>
+       <p title="Reddit"><a href="https://www.reddit.com/user/huddy987" target="_blank"><i class="fab fa-reddit-square icontext"></i></a></p>
+     </div>
+     <div class="iconcol">
+       <p title="Github"><a href="https://github.com/huddy987" target="_blank"><i class="fab fa-github-square icontext"></i></a></p>
+       <p title="Steam"><a href="https://steamcommunity.com/id/huddy987" target="_blank"><i class="fab fa-steam-square icontext"></i></a></p>
+     </div>
+   </div>
 </body>
