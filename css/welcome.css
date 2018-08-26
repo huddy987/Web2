@@ -69,12 +69,3 @@ body{
 #spotlightback{
   background-color:#ffffff;
 }
-
-/*--section 4--*/
-.bottomspace{
-  height:100px;
-  width:100vw;
-}
-#bottomback{
-  background-color: black;
-}
