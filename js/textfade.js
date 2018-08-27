@@ -42,7 +42,7 @@ $(document).ready(function() {
         break;
       case 3:
         $("#header2").fadeOut(speed,function() {
-          $(this).text("Contact page.").fadeIn(speed);
+          $(this).text("Contact Hub.").fadeIn(speed);
           $("#link2").attr("href", "contact");
         });
         n=0;
