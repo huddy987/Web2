@@ -32,6 +32,13 @@
       </div>
   </div>
   </div>
+  <!--Area underneath the navibar-->
   <div class="placeholder">
+  </div>
+  <!--Blue header for consistency-->
+  <div class="defaulthead" id="defaultback">
+  </div>
+  <!--Bottom area for consistency-->
+  <div class="bottomspace" id="bottomback">
   </div>
 </body>
