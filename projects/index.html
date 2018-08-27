@@ -12,17 +12,18 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko">
   <!--My own stylesheets-->
+  <link rel="stylesheet" href="/css/projects.css">
   <link rel="stylesheet" href="/css/jquery-ui.min.css">
   <link rel="stylesheet" href="/css/navibar.css">
 
-  <title>insert title </title>
+  <title>Projects - Hudson Shykowski's Homepage.</title>
 
 </head>
 <body>
   <!--Load navigation bar-->
   <div class="navtext" id="navbar" style="z-index: 2;">
     <h2 id="hudsonintro"><a href="/#who">Hudson Shykowski</a></h2>
-    <h2 id="contact"><a href="/contact">Contact me</a></h2>
+    <h2 id="contact"><a href="/contact">Contact Me</a></h2>
   <div class="dropdown">
       <h2 id="projects"><a href="/projects"><i class="fas fa-angle-down fa-xs"></i> Projects</a></h2>
       <div class="dropdowncontent">
@@ -42,10 +43,35 @@
        Feel free to take a look at any of my completed, in progress, or planned projects!
       </p>
     </div>
-    
   </div>
-  <!--Bottom area for consistency-->
-  <div class="bottomspace" id="bottomback">
+  <!--Area for main content-->
+  <div class="project-grid">
+    <div class="projectcol" id="pcol1">
+      <p class="phead">Completed:</p>
+      <p class="psmall"></br>These projects I have already completed. If there are any resources to share such as source code,
+        I will provide a link at the top of the project's page.
+      </p>
+      <p class="go phead"><a href="/projects/completed"><i class="fas fa-angle-right fa-xs"></i><i class="fas fa-angle-right fa-xs"></i> Go here!</a></p>
+    </div>
+    <div class="projectcol" id="pcol2">
+      <p class="phead">In Progress:</p>
+      <p class="psmall"></br>These projects I have not finished yet. Details on these projects will be sparse, and are subject to change.
+        If any source code is provided, it will be unfinished.
+      </p>
+      <p class="go phead"><a href="/projects/inprogress"><i class="fas fa-angle-right fa-xs"></i><i class="fas fa-angle-right fa-xs"></i> Go here!</a></p>
+    </div>
+    <div class="projectcol" id="pcol3">
+      <p class="phead">Planned:</p>
+      <p class="psmall"></br>These projects have either not been started yet or are in the early stages of development. No source code will be made available.
+      </p>
+      <p class="go phead"><a href="/projects/planned"><i class="fas fa-angle-right fa-xs"></i><i class="fas fa-angle-right fa-xs"></i> Go here!</a></p>
+    </div>
+  </div>
+  <!--Disclaimer-->
+  <div class="defaulthead" id="copyback">
+    <div class="defaulttext" style="font-size: 30px;">
+      <p>Like any of the ideas you find here? Feel free to use them yourself! Please <a href="/contact" style="color: #0061ff">contact me</a> if you have any questions.</p>
+    </div>
   </div>
 
 </body>
