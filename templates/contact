@@ -31,11 +31,12 @@
       </div>
   </div>
   </div>
+  <!--Area underneath the navibar-->
   <div class="placeholder">
   </div>
-   <!--Load header-->
-   <div class="contacthead" id="contactback">
-     <div class="contacttext" style="font-size: 30px;">
+   <!--Blue header for consistency-->
+   <div class="defaulthead" id="defaultback">
+     <div class="defaulttext" style="font-size: 30px;">
        <p>
         I can be contacted by email or through one of the platforms listed below.
        </p>
@@ -58,7 +59,7 @@
        <p title="Steam"><a href="https://steamcommunity.com/id/huddy987" target="_blank"><i class="fab fa-steam-square icontext"></i></a></p>
      </div>
    </div>
-
+   <!--Bottom area for consistency-->
    <div class="bottomspace" id="bottomback">
    </div>
 </body>
