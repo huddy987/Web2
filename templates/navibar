@@ -22,7 +22,7 @@
   <!--Load navigation bar-->
   <div class="navtext" id="navbar" style="z-index: 2;">
     <h2 id="hudsonintro"><a href="/#who">Hudson Shykowski</a></h2>
-    <h2 id="contact"><a href="/contact">Contact me</a></h2>
+    <h2 id="contact"><a href="/contact">Contact Me</a></h2>
   <div class="dropdown">
       <h2 id="projects"><a href="/projects"><i class="fas fa-angle-down fa-xs"></i> Projects</a></h2>
       <div class="dropdowncontent">
