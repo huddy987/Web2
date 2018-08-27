@@ -69,3 +69,9 @@ body{
 #spotlightback{
   background-color:#ffffff;
 }
+/*Optimize for mobile screens. because initial-scale=0.5, 1000px is really 500px.*/
+@media only screen and (max-width: 1000px) {
+  .who{
+    height: 600px;
+  }
+}
