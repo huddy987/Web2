@@ -76,7 +76,7 @@ a{
 #planned{
   padding-right: 26px;
 }
-/*Optimize for mobile screens*/
+/*Optimize for mobile screens. because initial-scale=0.5, 1000px is really 500px.*/
 @media only screen and (max-width: 1000px) {
   #contact{
     margin-right: 2vw;
@@ -89,6 +89,33 @@ a{
   }
   .dropdowncontent{
     margin-top: -2px;
+  }
+}
+/*Default header*/
+.defaulthead{
+  /*Use flex to position divs*/
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 235px;
+}
+.defaulttext{
+  /*border: 2px solid red;*/
+  width: 60vw;
+  /*text settings*/
+  font-family: 'Amiko', sans-serif;
+  color: white;
+  text-align: center;
+}
+#defaultback{
+  background-color:#0061ff;
+}
+/*Optimize for mobile screens. because initial-scale=0.5, 1000px is really 500px.*/
+@media only screen and (max-width: 1000px) {
+  .defaulthead{
+    height: 400px;
   }
 }
 
