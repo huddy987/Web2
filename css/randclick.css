@@ -1,0 +1,7 @@
+/*Stylesheet for "click here" text for URL randomizer*/
+#randclick{
+  color: black;
+}
+#randclick:hover{
+  color: white;
+}

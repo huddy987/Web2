@@ -28,16 +28,33 @@ a{
   color: white;
   background-color: black;
 }
+/*Configure hover settings*/
+#goblue:hover{
+  color: #afafaf;
+}
+#gowhite:hover{
+  color: #004ac6;
+}
+#goblack:hover{
+  color: #afafaf;
+}
 /*Optimize for mobile*/
 @media (max-width: 1000px) {
   .project-grid{
     display: block;
   }
-  #pcol1{
+  /*Make the height smaller as it will display using the block setting*/
+  #pcol1, #pcol2, #pcol3{
     margin-top: -2px;
   }
   #copyback{
     margin-top: -2px;
+  }
+}
+/*Optimize for large screens*/
+@media (min-height: 1000px) and (min-width:1000px){
+  #pcol1, #pcol2, #pcol3{
+    height: 60vh;
   }
 }
 /*header text*/
