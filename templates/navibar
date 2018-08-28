@@ -37,6 +37,10 @@
   </div>
   <!--Blue header for consistency-->
   <div class="defaulthead" id="defaultback">
+    <div class="defaulttext" style="font-size: 30px;">
+      <p>
+      </p>
+    </div>
   </div>
   <!--Bottom area for consistency-->
   <div class="bottomspace" id="bottomback">

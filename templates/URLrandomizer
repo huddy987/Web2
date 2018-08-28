@@ -1,0 +1,12 @@
+<head>
+  <script src="/libs/jquery-3.3.1.min.js"></script>
+  <script src="/libs/jquery-ui.min.js"></script>
+  <script src="/js/randomurl.js"></script>
+</head>
+<body>
+  <!--This always works as long as you include the randclick id, load JQuery, and load the randomurl script-->
+<p>
+  <a style="color: black" id="randclick">Click here</a> to visit a random URL from a given list.
+</p>
+<script>randomurl("url1", "url2", "url3");</script>
+</body>
