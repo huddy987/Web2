@@ -12,26 +12,21 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko">
   <!--My own stylesheets-->
+  <link rel="stylesheet" href="/css/projects.css">
   <link rel="stylesheet" href="/css/randclick.css">
   <link rel="stylesheet" href="/css/jquery-ui.min.css">
   <link rel="stylesheet" href="/css/navibar.css">
 
   <title>In Progress Projects - Hudson Shykowski's Homepage.</title>
-
+  <!--Load navigation bar-->
+  <script type="text/javascript">
+  $(function(){
+    $('#nav').load('/templates/navibar');
+  });
+  </script>
 </head>
 <body>
-  <!--Load navigation bar-->
-  <div class="navtext" id="navbar" style="z-index: 2;">
-    <h2 id="hudsonintro"><a href="/#who">Hudson Shykowski</a></h2>
-    <h2 id="contact"><a href="/contact">Contact Me</a></h2>
-  <div class="dropdown">
-      <h2 id="projects"><a href="/projects"><i class="fas fa-angle-down fa-xs"></i> Projects</a></h2>
-      <div class="dropdowncontent">
-        <p id="completed"><a href="/projects/completed"><i class="fas fa-angle-right fa-xs"></i> Completed</a></p>
-        <p id="inprogress"><a href="/projects/inprogress"><i class="fas fa-angle-right fa-xs"></i> In Progress</a></p>
-        <p id="planned"><a href="/projects/planned"><i class="fas fa-angle-right fa-xs"></i> Planned</a></p>
-      </div>
-  </div>
+  <div id="nav">
   </div>
   <!--Area underneath the navibar-->
   <div class="placeholder">
@@ -44,9 +39,25 @@
       </p>
     </div>
   </div>
+  <!--Main area with list of in progress projects-->
+  <div class="projblock" id="projback">
+    <div class="projcol" onclick="window.location.href = '/projects/completed/greater-than';">
+      <p class="ptext">Greater-than: A Kahoot style majority rules game.</p>
+    </div>
+    <!--
+    <div class="projcol">
+      <p class="ptext">My Cryptocurrency Mining Farm.</p>
+    </div>
+    <div class="projcol">
+      <p class="ptext">Name: Description</p>
+    </div>
+    <div class="projcol">
+      <p class="ptext">Name: Description</p>
+    </div>-->
+  </div>
   <!--Load the URl randomizer, then pick from a list of URLs-->
   <script src="/js/randomurl.js"></script>
-  <script>randomurl("/projects/completed/web2", "/projects/completed/crypto", "/projects/completed/pc");</script>
+  <script>randomurl("/projects/inprogress/greater-than");</script>
   <!--Bottom area for consistency-->
   <div class="bottomspace" id="bottomback">
   </div>

@@ -14,23 +14,19 @@
   <!--My own stylesheets-->
   <link rel="stylesheet" href="/css/contact.css">
   <link rel="stylesheet" href="/css/jquery-ui.min.css">
-  <link rel="stylesheet" href="/css/navibar.css">
    <title>Contact Me - Hudson Shykowski's Homepage.</title>
+
+   <!--Load navigation bar-->
+   <script type="text/javascript">
+   $(document).ready(function(e) {
+       $('#nav').load('/templates/navibar');
+     });
+   </script>
  </head>
 <body>
-  <!--Load navigation bar-->
-  <div class="navtext" id="navbar" style="z-index: 2;">
-    <h2 id="hudsonintro"><a href="/#who">Hudson Shykowski</a></h2>
-    <h2 id="contact"><a href="/contact">Contact me</a></h2>
-  <div class="dropdown">
-      <h2 id="projects"><a href="/projects"><i class="fas fa-angle-down fa-xs"></i> Projects</a></h2>
-      <div class="dropdowncontent">
-        <p id="completed"><a href="/projects/completed"><i class="fas fa-angle-right fa-xs"></i> Completed</a></p>
-        <p id="inprogress"><a href="/projects/inprogress"><i class="fas fa-angle-right fa-xs"></i> In Progress</a></p>
-        <p id="planned"><a href="/projects/planned"><i class="fas fa-angle-right fa-xs"></i> Planned</a></p>
-      </div>
+  <div id="nav">
   </div>
-  </div>
+  <!--Area underneath the navibar-->
   <div class="placeholder">
   </div>
    <!--Load header-->

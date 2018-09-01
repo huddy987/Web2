@@ -33,7 +33,7 @@ a{
   color: #afafaf;
 }
 #gowhite:hover{
-  color: #004ac6;
+  color: #0045b7;
 }
 #goblack:hover{
   color: #afafaf;
@@ -71,4 +71,52 @@ a{
 /*"Feel free to copy me" background*/
 #copyback{
   background-color: black;
+}
+/*Contact me text*/
+#contacttext{
+  text-decoration: underline;
+}
+/*contact me hover settings*/
+#contacttext:hover{
+  color: #afafaf;
+}
+/*completed, in progress, planned page*/
+
+/*Project block settings*/
+.projblock{
+  width: 100vw;
+  height: calc(100vh - 300px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/*Project column settings*/
+.projcol{
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/*Project column hover settings*/
+.projcol:hover{
+  background-color: #1c1c1c;
+  cursor: pointer;
+}
+/*Planned column hover settings*/
+.plannedcol:hover{
+  background-color: black;
+  cursor: auto;
+}
+/*Project column text settings*/
+.ptext{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size : 30px;
+  font-family: 'Amiko', sans-serif;
 }
