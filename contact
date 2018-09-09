@@ -50,11 +50,11 @@
      </div>
    </div>
    <div class="icons" id="iconback">
-     <div class="iconcol">
+     <div class="iconcol1">
        <p title="Email"><a href="mailto:huddy987@gmail.com" target="_blank"><i class="fas fa-envelope-square icontext"></i></a></p>
        <p title="Github"><a href="https://github.com/huddy987" target="_blank"><i class="fab fa-github-square icontext"></i></a></p>
      </div>
-     <div class="iconcol">
+     <div class="iconcol2">
        <p title="Linkedin"><a href="https://www.linkedin.com/in/huddys/" target="_blank"><i class="fab fa-linkedin icontext"></i></a></p>
        <p title="Twitter"><a href="https://twitter.com/huddy_987" target="_blank"><i class="fab fa-twitter-square icontext"></i></a></p>
      </div>
