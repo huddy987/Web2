@@ -6,7 +6,6 @@
   <!--My own stylesheets-->
   <link rel="stylesheet" href="/css/jquery-ui.min.css">
   <link rel="stylesheet" href="/css/navibar.css">
-
 </head>
 <body>
   <!--Load navigation bar-->

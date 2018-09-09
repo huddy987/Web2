@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Load libraries-->
+    <script src="/libs/jquery-3.3.1.min.js"></script>
+    <script src="/libs/jquery-ui.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+    <!---Load style--->
+    <!--Font Awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko">
+    <!--My own stylesheets-->
+    <link rel="stylesheet" href="/css/project_specific.css">
+    <link rel="stylesheet" href="/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/css/navibar.css">
+    <link rel="stylesheet" href="/css/loadscreen.css">
+
+    <title>ProjectName - Hudson Shykowski's Homepage.</title>
+    <!--Load navigation bar-->
+    <script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#nav').load('/templates/navibar');
+    });
+    </script>
+    <!--Script for the loading screen-->
+    <script>
+     $(window).on('load', function() {
+         $(".se-pre-con").fadeOut("slow");
+     });
+    </script>
+</head>
+<body>
+  <div class="se-pre-con"></div>
+  <div id="nav">
+  </div>
+  <!--Area underneath the navibar-->
+  <div class="placeholder">
+  </div>
+   <!--Blue header for consistency-->
+   <div class="defaulthead" id="defaultback">
+     <div class="defaulttext" style="font-size: 30px;">
+       <p>
+           ProjectName - Basic project description.
+       </p>
+     </div>
+   </div>
+   <!--GitHub link-->
+   <div class="gitcontainer" id="gitback">
+       <div class="gittext">
+           <p>Date of completion: September 5, 1999</p>
+       </div>
+       <div class="gittext">
+           <a href="www.github.com/huddy987/PROJECTNAME" id='gitlink'><p>Click here to view this project on Github.</p></a>
+       </div>
+   </div>
+
+   <div class="bottomspace" id="bottomback">
+   </div>
+</body>
+</html>

@@ -3,6 +3,7 @@
   <!--Load libraries-->
   <script src="/libs/jquery-3.3.1.min.js"></script>
   <script src="/libs/jquery-ui.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
 
   <!---Load style--->
@@ -16,6 +17,7 @@
   <link rel="stylesheet" href="/css/randclick.css">
   <link rel="stylesheet" href="/css/jquery-ui.min.css">
   <link rel="stylesheet" href="/css/navibar.css">
+  <link rel="stylesheet" href="/css/loadscreen.css">
 
   <title>Completed Projects - Hudson Shykowski's Homepage.</title>
   <!--Load navigation bar-->
@@ -24,8 +26,15 @@
     $('#nav').load('/templates/navibar');
   });
   </script>
+  <!--Script for the loading screen-->
+  <script>
+   $(window).on('load', function() {
+       $(".se-pre-con").fadeOut("slow");
+   });
+  </script>
 </head>
 <body>
+  <div class="se-pre-con"></div>
   <div id="nav">
   </div>
   <!--Area underneath the navibar-->

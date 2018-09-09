@@ -5,6 +5,7 @@
   <!--Load libraries-->
   <script src="/libs/jquery-3.3.1.min.js"></script>
   <script src="/libs/jquery-ui.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
    <!---Load style--->
   <!--Font Awesome-->
   <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
@@ -14,7 +15,8 @@
   <!--My own stylesheets-->
   <link rel="stylesheet" href="/css/contact.css">
   <link rel="stylesheet" href="/css/jquery-ui.min.css">
-   <title>Contact Me - Hudson Shykowski's Homepage.</title>
+  <link rel="stylesheet" href="/css/loadscreen.css">
+  <title>Contact Me - Hudson Shykowski's Homepage.</title>
 
    <!--Load navigation bar-->
    <script type="text/javascript">
@@ -22,8 +24,15 @@
        $('#nav').load('/templates/navibar');
      });
    </script>
+   <!--Script for the loading screen-->
+   <script>
+    $(window).on('load', function() {
+        $(".se-pre-con").fadeOut("slow");
+    });
+   </script>
  </head>
 <body>
+  <div class="se-pre-con"></div>
   <div id="nav">
   </div>
   <!--Area underneath the navibar-->
@@ -43,15 +52,11 @@
    <div class="icons" id="iconback">
      <div class="iconcol">
        <p title="Email"><a href="mailto:huddy987@gmail.com" target="_blank"><i class="fas fa-envelope-square icontext"></i></a></p>
-       <p title="Discord"><a href="https://discordapp.com/users/225788448961855488" target="_blank"><i class="fab fa-discord icontext"></i></a></p>
+       <p title="Github"><a href="https://github.com/huddy987" target="_blank"><i class="fab fa-github-square icontext"></i></a></p>
      </div>
      <div class="iconcol">
        <p title="Linkedin"><a href="https://www.linkedin.com/in/huddys/" target="_blank"><i class="fab fa-linkedin icontext"></i></a></p>
-       <p title="Reddit"><a href="https://www.reddit.com/user/huddy987" target="_blank"><i class="fab fa-reddit-square icontext"></i></a></p>
-     </div>
-     <div class="iconcol">
-       <p title="Github"><a href="https://github.com/huddy987" target="_blank"><i class="fab fa-github-square icontext"></i></a></p>
-       <p title="Steam"><a href="https://steamcommunity.com/id/huddy987" target="_blank"><i class="fab fa-steam-square icontext"></i></a></p>
+       <p title="Twitter"><a href="https://twitter.com/huddy_987" target="_blank"><i class="fab fa-twitter-square icontext"></i></a></p>
      </div>
    </div>
 

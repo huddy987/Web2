@@ -1,0 +1,29 @@
+/*Project-specific CSS elements*/
+body{
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+
+/*Github link*/
+.gitcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#gitback{
+    background-color: black;
+}
+.gittext{
+    color: #afafaf;
+    font-size: 22px;
+    font-family: 'Amiko', sans-serif;
+}
+#gitlink:hover{
+    color: white;
+}

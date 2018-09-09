@@ -7,7 +7,7 @@
   <script src="libs/jquery-3.3.1.min.js"></script>
   <script src="libs/jquery-ui.min.js"></script>
   <script src="libs/particles.min.js"></script>
-
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
   <!---Load style--->
   <!--Font Awesome-->
@@ -19,11 +19,17 @@
   <link rel="stylesheet" href="css/welcome.css">
   <link rel="stylesheet" href="css/jquery-ui.min.css">
   <link rel="stylesheet" href="css/navibar.css">
-
+  <link rel="stylesheet" href="/css/loadscreen.css">
   <title>Hudson Shykowski's Homepage.</title>
-
+  <!--Script for the loading screen-->
+  <script>
+	$(window).on('load', function() {
+		$(".se-pre-con").fadeOut("slow");
+	});
+  </script>
 </head>
 <body>
+  <div class="se-pre-con"></div>
   <!--Load navigation bar-->
   <div class="navtext" id="navbar" style="z-index: 2;">
     <h2 id="hudsonintro">Hudson Shykowski</h2>
@@ -68,7 +74,7 @@
       </p>
     </div>
     <div class="whophoto">
-      <img src="pics/download.png">
+      <img src="media/download.png">
     </div>
   </div>
 
