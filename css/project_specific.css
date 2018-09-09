@@ -27,3 +27,24 @@ a{
 #gitlink:hover{
     color: white;
 }
+/*Description text*/
+.desccontainer{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.desctext{
+    line-height: 2;
+    font-size: 22px;
+    font-family: 'Amiko', sans-serif;
+}
+.desclink{
+    text-decoration: underline;
+}
+.desclink:hover{
+    color: #1c1c1c;
+}

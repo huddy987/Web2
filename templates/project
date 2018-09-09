@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/css/navibar.css">
     <link rel="stylesheet" href="/css/loadscreen.css">
 
-    <title>ProjectName - Hudson Shykowski's Homepage.</title>
+    <title>Web2 - Hudson Shykowski's Homepage.</title>
     <!--Load navigation bar-->
     <script type="text/javascript">
     $(document).ready(function(e) {
@@ -43,20 +43,50 @@
    <div class="defaulthead" id="defaultback">
      <div class="defaulttext" style="font-size: 30px;">
        <p>
-           ProjectName - Basic project description.
+           Web2 - My homepage.
        </p>
      </div>
    </div>
    <!--GitHub link-->
    <div class="gitcontainer" id="gitback">
-       <div class="gittext">
-           <p>Date of completion: September 5, 1999</p>
+       <div class="gittext" style="margin-top: 22px;">
+           <p>Date of completion: September 16, 2018</p>
        </div>
-       <div class="gittext">
+       <div class="gittext" style="margin-bottom: 22px;">
            <a href="www.github.com/huddy987/PROJECTNAME" id='gitlink'><p>Click here to view this project on Github.</p></a>
        </div>
    </div>
-
+   <!--Project description-->
+   <div class="desccontainer">
+       <div class="desctext">
+           <p>
+               This website, named Web2, was started in the Summer of 2018, and completed in the Fall of 2018.
+               Web2 was my initiative to learn to make a functional and presentable website from scratch.
+               The vision for this website was to be a place for me to share my projects easily.
+               Using HTML, CSS, and JS, along with help from online tutorials, I managed to achieve just that.
+               </br></br>
+               A Raspberry Pi 3 B+ was used to host the website due to it's low cost, small size, low power usage, and relatively good computing power.
+               Apache was chosen as the HTTP server due to it's simplicity to use.
+               Below shows a size comparison of my Raspberry Pi and a credit card.
+               </br></br>
+               <p style="text-align:center;"><img id="RPImage" src="/media/web2/RPI.jpg" style="width:756px;height:567px;"><p>
+               </br>
+               The website name needed to reflect the personal nature of this website; so the domain www.shykowski.ca was chosen.
+               A subdomain was created to further this personalization: hudson.shykowski.ca.
+               You can visit either of the URLs, but you will be redirected to the second one.
+               </br></br>
+               The following free online resources made this website possible:
+               <ul>
+                   <li><a class="desclink" target="_blank" href="https://vincentgarreau.com/particles.js/">Particles.js</a> - a particle simulation JavaScript library</li>
+                   <li><a class="desclink" target="_blank" href="https://jquery.com">JQuery</a> - a JavaScript library that simplifies many web-actions</li>
+                   <li><a class="desclink" target="_blank" href="https://jqueryui.com">JQuery UI</a> - a JavaScript library that simplifies animation processes</li>
+                   <li><a class="desclink" target="_blank" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a> - A Flexbox CSS guide</li>
+                   <li><a class="desclink" target="_blank" href="https://smallenvelop.com/display-loading-icon-page-loads-completely/">Guide</a> to displaying a loading icon until a webpage completely loads</li>
+                   <li><a class="desclink" target="_blank" href="https://www.w3schools.com">W3schools.com</a> - A website containing HTML, CSS, and JS guides</li>
+               </ul>
+           </p>
+       </div>
+   </div>
    <div class="bottomspace" id="bottomback">
    </div>
 </body>
