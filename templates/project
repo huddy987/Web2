@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/css/navibar.css">
     <link rel="stylesheet" href="/css/loadscreen.css">
 
-    <title>Web2 - Hudson Shykowski's Homepage.</title>
+    <title>Crypto - Hudson Shykowski's Homepage.</title>
     <!--Load navigation bar-->
     <script type="text/javascript">
     $(document).ready(function(e) {
@@ -41,48 +41,67 @@
   </div>
    <!--Blue header for consistency-->
    <div class="defaulthead" id="defaultback">
-     <div class="defaulttext" style="font-size: 30px;">
+     <div class="defaulttext" style="font-size: 40px;">
        <p>
-           Web2 - My homepage.
+           My Cryptocurrency Mining Operation
        </p>
      </div>
    </div>
    <!--GitHub link-->
    <div class="gitcontainer" id="gitback">
-       <div class="gittext" style="margin-top: 22px;">
-           <p>Date of completion: September 16, 2018</p>
+       <div class="gittext" style="margin-top: 22px; margin-bottom: 22px;">
+           <p>Date of completion: March 2018</p>
        </div>
-       <div class="gittext" style="margin-bottom: 22px;">
+       <!--<div class="gittext" style="margin-bottom: 22px;">
            <a href="www.github.com/huddy987/PROJECTNAME" id='gitlink'><p>Click here to view this project on Github.</p></a>
-       </div>
+       </div>-->
    </div>
    <!--Project description-->
    <div class="desccontainer">
        <div class="desctext">
            <p>
-               This website, named Web2, was started in the Summer of 2018, and completed in the Fall of 2018.
-               Web2 was my initiative to learn to make a functional and presentable website from scratch.
-               The vision for this website was to be a place for me to share my projects easily.
-               Using HTML, CSS, and JS, along with help from online tutorials, I managed to achieve just that.
+               <b>Cryptocurrency</b> (noun): any form of currency that only exists digitally,
+               that usually has no central issuing or regulating authority but instead uses a
+               decentralized system to record transactions and manage the issuance of new units,
+               and that relies on cryptography to prevent counterfeiting and fraudulent transactions.
+               - <a class="desclink" target="_blank" href="https://www.merriam-webster.com/dictionary/cryptocurrency">Marriam-Webster dictionary</a>
                </br></br>
-               A Raspberry Pi 3 B+ was used to host the website due to it's low cost, small size, low power usage, and relatively good computing power.
-               Apache was chosen as the HTTP server due to it's simplicity to use.
-               Below shows a size comparison of my Raspberry Pi and a credit card.
+               My Cryptocurrency mine was started in late January of 2018.
+               It was an initiative on me and my father's part to build infrastructure for a technology that revolutionizes the way value is exchanged.
+               Using readily available computer parts, the work was completed in March of 2018.
+               This project is ongoing because from time to time our mine needs repairs, and occasionally we change the coin that we are mining.
+               Although we do not mine Bitcoin, the coins that we mine are based off of the same fundamentals originally proposed by Satoshi Nakamoto.
                </br></br>
-               <p style="text-align:center;"><img id="RPImage" src="/media/web2/RPI.jpg" style="width:756px;height:567px;"><p>
+               Our mine consists of 3 main computers with the follow hardware specifications:
                </br>
-               The website name needed to reflect the personal nature of this website; so the domain www.shykowski.ca was chosen.
-               A subdomain was created to further this personalization: hudson.shykowski.ca.
-               You can visit either of the URLs, but you will be redirected to the second one.
+               <ol>
+                   <li>16 GB of ram, 128 GB SSD (solid state drive), 12x Nvidia GTX 1080 ti, 1x Nvidia GTX 1070 ti</li>
+                   <li>16 GB of ram, 250 GB SSD, 1x Nvidia GTX 1080 ti, 5x Nvidia GTX 1070 ti, 5x Nvidia GTX 1070</li>
+                   <li>16 GB of ram, 8 GB USB flash drive, 1x Nvidia GTX 1080 ti</li>
+               </ol>
+               Due to hardware and software limitations, each computer has a limit of 13 graphics cards.
+               The third computer is used to diagnose hardware problems that we occasionally have due to the amount of different parts in the other two computers.
                </br></br>
-               The following free online resources made this website possible:
+               We manage our computers using a service known as <a class="desclink" target="_blank" href="https://hiveos.farm">Hive OS</a>: a lightweight operating system that allows for remote control.
+               We chose Hive OS because it is free and is a powerful utility for troubleshooting and adjusting settings on our computers.
+               </br></br>
+               Due to the heat generated by our mine, we installed 2 hydroponic fans with a duct leading outside.
+               In the winter, we pull cold air in from outside to cool the room, and in the summer, we push hot air out of the room to cool the room.
+               This cooling solution is cheap and allows us to cycle a lot of air.
+               </br></br>
+               This video serves as a virtual tour of our mining setup:
+               </br></br>
+               <p style="text-align:center;"><iframe width="756" height="426" src="https://www.youtube.com/embed/wsNzEUod_aY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+               </br></br>
+               If you would like to learn about Cryptocurrency and Blockchain, here are a few resources that I recommend you start with:
                <ul>
-                   <li><a class="desclink" target="_blank" href="https://vincentgarreau.com/particles.js/">Particles.js</a> - a particle simulation JavaScript library</li>
-                   <li><a class="desclink" target="_blank" href="https://jquery.com">JQuery</a> - a JavaScript library that simplifies many web-actions</li>
-                   <li><a class="desclink" target="_blank" href="https://jqueryui.com">JQuery UI</a> - a JavaScript library that simplifies animation processes</li>
-                   <li><a class="desclink" target="_blank" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a> - A Flexbox CSS guide</li>
-                   <li><a class="desclink" target="_blank" href="https://smallenvelop.com/display-loading-icon-page-loads-completely/">Guide</a> to displaying a loading icon until a webpage completely loads</li>
-                   <li><a class="desclink" target="_blank" href="https://www.w3schools.com">W3schools.com</a> - A website containing HTML, CSS, and JS guides</li>
+                   <li><a class="desclink" target="_blank" href="https://www.coindesk.com/information/what-is-blockchain-technology/">What is Blockchain Technology?</a></li>
+                   <li><a class="desclink" target="_blank" href="https://www.youtube.com/watch?v=SSo_EIwHSd4">How Does Blockchain a Work?</a></li>
+                   <li><a class="desclink" target="_blank" href="https://bitcoin.org/en/">Bitcoin Foundation Website</a></li>
+                   <li><a class="desclink" target="_blank" href="https://bitcoin.org/bitcoin.pdf  ">The Original Bitcoin Whitepaper</a></li>
+                   <li><a class="desclink" target="_blank" href="https://www.youtube.com/watch?v=GmOzih6I1zs">What is Bitcoin Mining?</a></li>
+                   <li><a class="desclink" target="_blank" href="https://coinmarketcap.com">CoinMarketCap</a> - Live Cryptocurrency prices</li>
+                   <li><a class="desclink" target="_blank" href="https://www.coinbase.com">Coinbase</a> - An easy way to buy and sell Cryptocurrency</li>
                </ul>
            </p>
        </div>
