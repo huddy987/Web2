@@ -41,7 +41,7 @@
   </div>
    <!--Blue header for consistency-->
    <div class="defaulthead" id="defaultback">
-     <div class="defaulttext" style="font-size: 30px;">
+     <div class="defaulttext" style="font-size: 40px;">
        <p>
            Web2 - My homepage.
        </p>

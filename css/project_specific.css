@@ -20,6 +20,8 @@ a{
     background-color: black;
 }
 .gittext{
+    margin-left: 10vw;
+    margin-right: 10vw;
     color: #afafaf;
     font-size: 22px;
     font-family: 'Amiko', sans-serif;
