@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/css/navibar.css">
     <link rel="stylesheet" href="/css/loadscreen.css">
 
-    <title>Web2 - Hudson Shykowski's Homepage.</title>
+    <title>Web2 - Hudson Shykowski's Homepage</title>
     <!--Load navigation bar-->
     <script type="text/javascript">
     $(document).ready(function(e) {

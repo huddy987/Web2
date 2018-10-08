@@ -43,6 +43,7 @@ a{
   font-size: 18px;
   min-height: 125px;
   z-index: 3;
+  margin-top: -2px;
 }
 /*Hover behavior*/
 #hudsonintro:hover, #projects:hover, #contact:hover{

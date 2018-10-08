@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-CA">
 <head>
-  <!--Optimize mobile screen scaling-->
-  <meta name="viewport" content="width=device-width, initial-scale=0.5">
   <!--Load libraries-->
   <script src="/libs/jquery-3.3.1.min.js"></script>
   <script src="/libs/jquery-ui.min.js"></script>
@@ -17,7 +15,7 @@
   <link rel="stylesheet" href="/css/contact.css">
   <link rel="stylesheet" href="/css/jquery-ui.min.css">
   <link rel="stylesheet" href="/css/loadscreen.css">
-  <title>Contact Me - Hudson Shykowski's Homepage.</title>
+  <title>Contact Me - Hudson Shykowski's Homepage</title>
 
    <!--Load navigation bar-->
    <script type="text/javascript">
