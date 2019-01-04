@@ -35,14 +35,7 @@ $(document).ready(function() {
         break;
       case 2:
         $("#header2").fadeOut(speed,function() {
-          $(this).text("Planning Center.").fadeIn(speed);
-          $("#link2").attr("href", "projects/planned");
-        });
-        n=3;
-        break;
-      case 3:
-        $("#header2").fadeOut(speed,function() {
-          $(this).text("Contact Hub.").fadeIn(speed);
+          $(this).text("Contact Page.").fadeIn(speed);
           $("#link2").attr("href", "contact");
         });
         n=0;

@@ -28,23 +28,13 @@ a{
   text-align: center;
 }
 /*dropdown main div*/
-.dropdown{
+#projects{
   min-width: 170px;
   display: inline-block;
   float: right;
   margin-right: 5vw;
 }
-/*Settings for block inside dropdown*/
-.dropdowncontent {
-  /*border: 2px solid white;*/
-  position: relative;
-  display: none;
-  background-color: black;
-  font-size: 18px;
-  min-height: 125px;
-  z-index: 3;
-  margin-top: -2px;
-}
+
 /*Hover behavior*/
 #hudsonintro:hover, #projects:hover, #contact:hover{
   /*border: 2px solid white;*/
@@ -53,11 +43,8 @@ a{
 #hudsonintro:hover{
   color: #0061ff;
 }
-#contact:hover, #projects:hover, #completed:hover, #planned:hover, #inprogress:hover{
+#contact:hover, #projects:hover{
   color: white;
-}
-.dropdown:hover .dropdowncontent{
-  display: block;
 }
 
 /*Positioning*/
@@ -73,9 +60,6 @@ a{
   float: right;
   margin-right: 10vw;
 }
-#planned{
-  padding-right: 26px;
-}
 /*Optimize for mobile screens. because initial-scale=0.5, 1000px is really 500px.*/
 @media only screen and (max-width: 1000px) {
   #contact{
@@ -84,11 +68,8 @@ a{
   #hudsonintro{
     margin-left: 2vw;
   }
-  .dropdown{
+  #projects{
     margin-right: 2vw;
-  }
-  .dropdowncontent{
-    margin-top: -2px;
   }
 }
 /*Default header*/

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+    <!--Load libraries-->
+    <script src="/libs/jquery-3.3.1.min.js"></script>
+    <script src="/libs/jquery-ui.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+    <!---Load style--->
+    <!--Font Awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko">
+    <!--My own stylesheets-->
+    <link rel="stylesheet" href="/css/project_specific.css">
+    <link rel="stylesheet" href="/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/css/navibar.css">
+    <link rel="stylesheet" href="/css/loadscreen.css">
+
+    <title>Arduino Battleship - Hudson Shykowski's Homepage.</title>
+    <!--Load navigation bar-->
+    <script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#nav').load('/templates/navibar');
+    });
+    </script>
+    <!--Script for the loading screen-->
+    <script>
+     $(window).on('load', function() {
+         $(".se-pre-con").fadeOut("slow");
+     });
+    </script>
+</head>
+<body>
+  <div class="se-pre-con"></div>
+  <div id="nav">
+  </div>
+  <!--Area underneath the navibar-->
+  <div class="placeholder">
+  </div>
+   <!--Blue header for consistency-->
+   <div class="defaulthead" id="defaultback">
+     <div class="defaulttext" style="font-size: 40px;">
+       <p>
+           Arduino Battleship
+       </p>
+     </div>
+   </div>
+   <!--GitHub link-->
+   <div class="gitcontainer" id="gitback">
+       <div class="gittext" style="margin-top: 22px; margin-bottom: 22px;">
+           <p>Date of completion: December 27, 2018</p>
+       </div>
+       <div class="gittext" style="margin-bottom: 22px;">
+           <a href="https://github.com/huddy987/Arduino-Battleship" id='gitlink'><p>Click here to view this project on Github.</p></a>
+       </div>
+   </div>
+   <!--Project description-->
+   <div class="desccontainer">
+       <div class="desctext">
+           <p>
+               <b>Arduino Battleship</b>is a digital version of the popular Hasbro boardgame "Battleship" written in C++ for the Arduino Mega.
+               Our version of battleship supports 1 player games against the computer, or 2 player games against a friend.
+               This project was originally created for a programming class and was later expanded on. My friend Richmond and I wrote this game with the goal of improving our knowledge of the C++ programming language,
+               to learn how to make microprocessors communicate to one another, and to become more comfortable with programming in resource limited environments.
+               </br></br>
+               Using libraries created by Adafruit, we were able to detect touches on a 260 by 320 pixel touchscreen, and create a responses based off of
+               these touches. The game begins with a screen prompting the user to select 1 or 2 player mode.
+               If 1 player mode is selected, the user will play against an AI created by us.
+               Otherwise, if 2 Arduinos are connected and 2 player mode is selected, the user will play against a friend.
+               </br></br>
+               The game starts with the user being prompted to select 5 tiles in a row, 4 tiles in a row, and finally 3 tiles in a row on a 6 by 7 grid.
+               Once the 3 boats are chosen, the user will be prompted to select a tile to "shoot" the opponent at. Once both players lock in their "shot",
+               a screen will show their boats and what tile the opponent shot them at. A blue tile corresponds to a miss, a yellow tile corresponds
+               to a hit, and a red tile corresponds to an entire boat sunk. This process is continually repeated until one or both players boats are all sunk.
+               The user will then be shown an appropriate end screen with either a "Win", "Lose", or "Tie" message. Finally, by pressing on the end screen, the Arduino will
+               be reset and the game can be played again.
+               </br></br>
+               The video below demonstrates both 1 and 2 player gameplay:
+               </br></br>
+               <p style="text-align:center;"><iframe width="756" height="426" src="https://www.youtube.com/embed/KdetjoO5HS8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+               </br></br>
+               Most of the functionality in Arduino Battleship was created modularly, and should be easy to modify for other purposes. If you would like to modify the game, or use any of the functionality seen here, feel free to <a class="desclink" target="_blank" href="https://github.com/huddy987/Arduino-Battleship">fork us on Github</a>.
+               If you are interested in creating a touch-responsive Arduino project like ours, here are a few resources to get you started:
+               <ul>
+                   <li><a class="desclink" target="_blank" href="https://learn.adafruit.com/adafruit-2-4-color-tft-touchscreen-breakout/spi-wiring-test">Adafruit 2.4" Touchscreen Wiring Guide</a></li>
+                   <li><a class="desclink" target="_blank" href="https://learn.adafruit.com/adafruit-gfx-graphics-library/graphics-primitives">Adafruit GFX Graphics Library Documentation</a></li>
+                   <li><a class="desclink" target="_blank" href="https://github.com/adafruit/Adafruit_TouchScreen">Adafruit TouchScreen Library download</a></li>
+               </ul>
+           </p>
+       </div>
+   </div>
+   <div class="bottomspace" id="bottomback">
+   </div>
+</body>
+</html>
