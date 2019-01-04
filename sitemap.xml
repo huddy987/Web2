@@ -9,42 +9,32 @@
 
 <url>
   <loc>http://hudson.shykowski.ca/</loc>
-  <lastmod>2018-10-8T00:24:38+00:00</lastmod>
+  <lastmod>2019-01-01</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://hudson.shykowski.ca/contact</loc>
-  <lastmod>2018-10-8T00:24:38+00:00</lastmod>
+  <lastmod>2019-01-01</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://hudson.shykowski.ca/projects/</loc>
-  <lastmod>2018-10-8T00:24:38+00:00</lastmod>
+  <lastmod>2019-01-01</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://hudson.shykowski.ca/projects/completed/</loc>
-  <lastmod>2018-10-8T00:24:38+00:00</lastmod>
+  <loc>http://hudson.shykowski.ca/projects/web2</loc>
+  <lastmod>2019-01-01</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://hudson.shykowski.ca/projects/inprogress/</loc>
-  <lastmod>2018-10-8T00:24:38+00:00</lastmod>
+  <loc>http://hudson.shykowski.ca/projects/crypto</loc>
+  <lastmod>2019-01-01</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://hudson.shykowski.ca/projects/planned/</loc>
-  <lastmod>2018-10-8T00:24:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://hudson.shykowski.ca/projects/completed/web2</loc>
-  <lastmod>2018-10-8T00:24:38+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://hudson.shykowski.ca/projects/completed/crypto</loc>
-  <lastmod>2018-10-8T00:24:38+00:00</lastmod>
+  <loc>http://hudson.shykowski.ca/projects/battleship</loc>
+  <lastmod>2019-01-01</lastmod>
   <priority>0.80</priority>
 </url>
 

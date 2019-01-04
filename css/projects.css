@@ -120,3 +120,12 @@ a{
   font-size : 30px;
   font-family: 'Amiko', sans-serif;
 }
+
+/*Project column date text settings*/
+.pdate{
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size : 15px;
+  font-family: 'Amiko', sans-serif;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+  <!--Load libraries-->
+  <script src="/libs/jquery-3.3.1.min.js"></script>
+  <script src="/libs/jquery-ui.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+  <!---Load style--->
+  <!--Font Awesome-->
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+  <!--Google Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amiko">
+  <!--My own stylesheets-->
+  <link rel="stylesheet" href="/css/projects.css">
+  <link rel="stylesheet" href="/css/jquery-ui.min.css">
+  <link rel="stylesheet" href="/css/loadscreen.css">
+
+  <title>Projects - Hudson Shykowski's Homepage</title>
+  <!--Load navigation bar-->
+  <script type="text/javascript">
+  $(function(){
+    $('#nav').load('/templates/navibar');
+  });
+  </script>
+  <!--Script for the loading screen-->
+  <script>
+   $(window).on('load', function() {
+       $(".se-pre-con").fadeOut("slow");
+   });
+  </script>
+</head>
+<body>
+  <div class="se-pre-con"></div>
+  <div id="nav">
+  </div>
+  <!--Area underneath the navibar-->
+  <div class="placeholder">
+  </div>
+  <!--Blue header for consistency-->
+  <div class="defaulthead" id="defaultback">
+    <div class="defaulttext" style="font-size: 30px;">
+      <p>
+       Feel free to take a look at any of my completed, in progress, or planned projects!
+      </p>
+    </div>
+  </div>
+  <!--Area for main content-->
+  <div class="project-grid">
+    <div class="projectcol" id="pcol1">
+      <p class="phead">Completed:</p>
+      <p class="psmall">These projects I have already completed. If there are any resources to share such as source code,
+        I will provide a link at the top of the project's page.
+      </p>
+      <p class="phead"><a href="/projects/completed" id="goblue"><i class="fas fa-angle-right fa-xs"></i><i class="fas fa-angle-right fa-xs"></i> Go here!</a></p>
+    </div>
+    <div class="projectcol" id="pcol2">
+      <p class="phead">In Progress:</p>
+      <p class="psmall">These projects I have not finished yet. Details on these projects will be sparse, and are subject to change.
+        If any source code is provided, it will be unfinished.
+      </p>
+      <p class="phead"><a href="/projects/inprogress" id="gowhite"><i class="fas fa-angle-right fa-xs"></i><i class="fas fa-angle-right fa-xs"></i> Go here!</a></p>
+    </div>
+    <div class="projectcol" id="pcol3">
+      <p class="phead">Planned:</p>
+      <p class="psmall">These projects have either not been started yet or are in the early stages of development. No source code will be made available, and project details will be sparse.
+      </p>
+      <p class=" phead"><a href="/projects/planned" id="goblack"><i class="fas fa-angle-right fa-xs"></i><i class="fas fa-angle-right fa-xs"></i> Go here!</a></p>
+    </div>
+  </div>
+  <!--Disclaimer-->
+  <div class="defaulthead" id="copyback">
+    <div class="defaulttext" style="font-size: 30px;">
+      <p>Like any of the ideas you find here? Feel free to use them yourself! Please <a href="/contact" id="contacttext">contact me</a> if you have any questions.</p>
+    </div>
+  </div>
+</body>
+</html>
