@@ -29,8 +29,7 @@ a{
 }
 /*dropdown main div*/
 #projects{
-  min-width: 170px;
-  display: inline-block;
+  position: relative;
   float: right;
   margin-right: 5vw;
 }
