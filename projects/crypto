@@ -49,12 +49,9 @@
    </div>
    <!--GitHub link-->
    <div class="gitcontainer" id="gitback">
-       <div class="gittext" style="margin-top: 22px; margin-bottom: 22px;">
+       <div class="gittext">
            <p>Date of completion: March 2018</p>
        </div>
-       <!--<div class="gittext" style="margin-bottom: 22px;">
-           <a href="www.github.com/huddy987/PROJECTNAME" id='gitlink'><p>Click here to view this project on Github.</p></a>
-       </div>-->
    </div>
    <!--Project description-->
    <div class="desccontainer">

@@ -49,10 +49,10 @@
    </div>
    <!--GitHub link-->
    <div class="gitcontainer" id="gitback">
-       <div class="gittext" style="margin-top: 22px;">
+       <div class="gittext">
            <p>Date of completion: September 16, 2018</p>
        </div>
-       <div class="gittext" style="margin-bottom: 22px;">
+       <div class="gittext">
            <a href="https://github.com/huddy987/Web2" id='gitlink'><p>Click here to view this project on Github.</p></a>
        </div>
    </div>

@@ -49,23 +49,23 @@
    </div>
    <!--GitHub link-->
    <div class="gitcontainer" id="gitback">
-       <div class="gittext" style="margin-top: 22px; margin-bottom: 22px;">
-           <p>Date of completion: December 27, 2018</p>
+       <div class="gittext">
+          <p>Date of completion: December 27, 2018</p>
        </div>
-       <div class="gittext" style="margin-bottom: 22px;">
-           <a href="https://github.com/huddy987/Arduino-Battleship" id='gitlink'><p>Click here to view this project on Github.</p></a>
+       <div class="gittext">
+          <a href="https://github.com/huddy987/Arduino-Battleship" id='gitlink'><p>Click here to view this project on Github.</p></a>
        </div>
    </div>
    <!--Project description-->
    <div class="desccontainer">
        <div class="desctext">
            <p>
-               <b>Arduino Battleship</b>is a digital version of the popular Hasbro boardgame "Battleship" written in C++ for the Arduino Mega.
+               <b>Arduino Battleship</b> is a digital version of the popular Hasbro boardgame "Battleship" written in C++ for the Arduino Mega.
                Our version of battleship supports 1 player games against the computer, or 2 player games against a friend.
                This project was originally created for a programming class and was later expanded on. My friend Richmond and I wrote this game with the goal of improving our knowledge of the C++ programming language,
                to learn how to make microprocessors communicate to one another, and to become more comfortable with programming in resource limited environments.
                </br></br>
-               Using libraries created by Adafruit, we were able to detect touches on a 260 by 320 pixel touchscreen, and create a responses based off of
+               Using libraries created by Adafruit, we were able to detect touches on a 260 by 320 pixel touchscreen, and create responses based off of
                these touches. The game begins with a screen prompting the user to select 1 or 2 player mode.
                If 1 player mode is selected, the user will play against an AI created by us.
                Otherwise, if 2 Arduinos are connected and 2 player mode is selected, the user will play against a friend.
