@@ -86,7 +86,7 @@ a{
 .projblock{
   width: 100vw;
   /* -300px to allow the other element to fit in nicely,
-     100px for each project banner
+     400px may need to be changed when more banners are added
   */
   height: calc(100vh - 300px + 400px);
   display: flex;
